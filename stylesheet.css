@@ -1,0 +1,247 @@
+/* A Move For Life stylesheet by Camden Phalen and Susan Xu */
+
+/* Import Fonts */
+@font-face {
+	font-family: "Chantilly XLite";
+	src: url("fonts/chantilly-xlite.ttf");
+}
+
+@font-face {
+	font-family: "Chantilly";
+	src: url("fonts/chantilly.ttf");
+}
+
+@font-face {
+	font-family: "Chantilly Bold";
+	src: url("fonts/chantilly-bold.ttf");
+}
+
+@font-face {
+	font-family: "Chantilly MedLite";
+	src: url("fonts/chantilly-medlite.ttf");
+}
+
+/* Page Structure -----------------------------------------*/
+body {
+	width: 100%;
+}
+
+/* General Text ------------------------------------------- */
+h1 {
+	font-size: 500%;
+	font-family: "Chantilly Xlite";
+	text-align: center;
+}
+
+h3 {
+	font-family: "Chantilly XLite";
+}
+
+p, li {
+	font-family: "Chantilly";
+}
+
+b {
+	font-family: "Chantilly Bold";
+}
+
+/* Buttons ---------------------------------------- */
+.btn-default {
+	background-color: transparent;
+	border: 3px solid white;
+	color: white;
+	font-family: "Chantilly MedLite";
+	width: 175px;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 20px;
+	transition: all 0.5s ease;
+}
+
+.btn-default:hover {
+	border-color: white;
+	background-color: white;
+	color: #666666;
+	text-shadow: none;
+}
+
+/* Page Header & Nav ------------------------------------*/
+.header {
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+	background-color: white;
+	text-align: center;
+}
+
+.nav-container {
+	margin: 0 auto;
+}
+
+.inner {
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#slideout {
+	width: 20px;
+	margin-top: 17px;
+	height: auto;
+	float: left;
+}
+
+.a-header-logo {
+	color: black;
+	display: block;
+  	width: 300px;
+ 	 margin-left: auto;
+  	margin-right: auto;
+}
+
+.a-header-logo:hover {
+	color:black;
+	text-decoration: none;
+}
+
+.header-logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#nav-img {
+	height: 27px;
+	width: auto;
+}
+
+.nav {
+	display: none;
+	text-align: left;
+}
+
+.nav > li {
+  display: inline-block;
+}
+.nav > li + li {
+  margin-left: 20px;
+}
+.nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(0,0,0,.4);
+  border-bottom: 2px solid transparent;
+  transition: color 0.5s ease;
+
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 1);
+}
+
+.nav .active a {
+	color: rgba(0, 0, 0, 1);
+}
+
+@media (min-width: 768px) {
+	.inner {
+		margin: 0px;
+	}	
+  .header-logo {
+    float: left;
+  }
+
+  .a-header-logo {
+  	margin-left: 0;
+  	margin-right: 0;
+  }
+
+  #slideout {
+  	display: none;
+  }
+
+  .nav {
+    float: right;
+    display: block;
+  }
+
+  /* Pull out the header and footer */
+  .header {
+    position: fixed;
+    top: 0;
+  }
+
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .header,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 1250px) {
+	.header {
+		padding-left: 150px;
+		padding-right: 150px;
+	}
+}
+
+/* Pullout Nav Menu ----------------------------------------------- */
+.slideout-menu {
+	position: fixed;
+	z-index: 1001;
+	width: 50%;
+	left: -50%;
+	height: 100%;
+	background-color: lightgray;
+}
+
+.slideout-menu table {
+	height: 100%;
+	width: 100%;
+}
+
+.slideout-menu table tr {
+	width: 100%;
+}
+
+.slideout-menu table tr td {
+	width: 100%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.slideout-menu a {
+	font-family: "Chantilly Bold";
+	color: black;
+	text-decoration: none;
+}
+
+.back {
+	position: fixed;
+	z-index: 1002;
+	width: 50%;
+	left: 100%;
+	height: 100%;
+	background-color: transparent;
+}
+
+/* Jumbotron ------------------------------------------------------- */
+.jumbotron {
+	width: 100%;
+	color: white;
+	padding-top: 80px;
+}
+
+@media (min-width: 768px) {
+	.jumbotron {
+		margin-top: 54px;
+	}
+}

@@ -1,0 +1,30 @@
+.jumbotron {
+  Background: url(events_banner.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Buttons ------------------------- */
+.container {
+	text-align: center;
+}
+
+.button-center {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.active-button {
+	border-color: white;
+	background-color: white;
+	color: #666666;
+}
+
+.inactive-button {
+	border-color: white;
+	background-color: transparent;
+	color: white;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<!-- A Move For Life by Camden Phalen and Susan Xu | Events Page -->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Events | A Move For Life</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.css" rel="stylesheet">
+
+    <!-- Site-wide Stylesheet -->
+    <link href="stylesheet.css" rel="stylesheet">
+
+    <!-- Event Page CSS -->
+    <link href="events.css" rel="stylesheet">
+    
+
+  </head>
+
+  <body>
+    <div class="slideout-menu">
+        <table>
+            <tr><td><a href="#">About Us</a></td></tr>
+            <tr><td><a href="#">Events</a></td></tr>
+            <tr><td><a href="#">Partners</a></td></tr>
+            <tr><td><a href="#">Donate</a></td></tr>
+        </table>
+    </div>
+    <div class="back"></div>
+
+    <div class="nav-container">
+        <div class="header clearfix">
+            <div class="inner">
+            <img src="slideout.png" id="slideout"/>
+              <a href="index.html" class="a-header-logo">
+                <h3 class="header-logo">A MOVE <b>FOR LIFE</b> 
+                <img src="logo.jpg" id="nav-img"/></h3>
+              </a>
+                <nav>
+                    <ul class="nav">
+                        <li class="inactive"><a href="#">About Us</a></li>
+                        <li class="active"><a href="events.html">Events</a></li>
+                        <li class="inactive"><a href="#">Partners</a></li>
+                        <li class="inactive"><a href="#">Donate</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron site-wrapper">
+        <div class="container">
+            <h1>Our Events</h1>
+
+                    <div class="button-center">
+                    <a href="#" class="btn btn-lg btn-default active-button" id="upcoming">Upcoming Events</a>
+                    <a href="#" class="btn btn-lg btn-default inactive-button" id="past">Past Events</a>
+                </div>
+
+        </div>
+    </div>
+
+    <script src='jquery-1.11.2.js'></script>
+    <script src='script.js'></script>
+    <script src='eventswitch.js'></script>
+    
+</body>
