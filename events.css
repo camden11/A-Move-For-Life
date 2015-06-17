@@ -4,6 +4,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin-bottom: 0px;
 }
 
 /* Buttons ------------------------- */
@@ -27,4 +28,77 @@
 	border-color: white;
 	background-color: transparent;
 	color: white;
+}
+
+/* Images ---------------------------- */
+.event-img {
+	width: 350px;
+	height: auto;
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+	.event-img {
+		width: 270px;
+	}
+}
+
+@media (min-width: 1250px) {
+	.event-img {
+		width: 330px;
+	}
+}
+
+/* Columns and Layout ---------------- */
+.col-sm-4 {
+	text-align: center;
+	width: 100%;
+	margin-top: 45px;
+}
+
+.col-sm-8 {
+	text-align: center;
+	width: 100%;
+}
+
+.col-sm-4, .col-sm-8 {
+	margin-bottom: 10px;
+}
+
+.row {
+	margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+	.col-sm-4 {
+		width: 33.33333333%;
+		margin-bottom: 60px;
+		margin-top: 0px;
+	}
+
+	.col-sm-8 {
+		width: 66.66666666%;
+		text-align: left;
+		padding-left: 50px;
+		margin-bottom: 60px;
+	}
+
+	.jumbotron {
+		margin-bottom: 50px;
+	}
+}
+
+@media (min-width: 1250px) {
+	.row {
+		width: 75%;
+	}
+}
+
+/* Switching between event lists ------------------ */
+#past-event-wrapper {
+  transition: visibility 0s ease, opacity 1s ease;
+}
+
+.invisible {
+	display: none;
 }

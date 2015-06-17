@@ -9,6 +9,8 @@ $(document).ready(function() {
 			$(this).toggleClass("inactive-button");
 			$('#past').toggleClass("active-button");
 			$('#past').toggleClass("inactive-button");
+			$('#past-event-wrapper').css("visibility", "visible");
+			$('#past-event-wrapper').css("opacity", "1");
 		}
 	});
 
@@ -19,6 +21,8 @@ $(document).ready(function() {
 			$(this).toggleClass("inactive-button");
 			$('#upcoming').toggleClass("active-button");
 			$('#upcoming').toggleClass("inactive-button");
+			$('#past-event-wrapper').css("visibility", "hidden");
+			$('#past-event-wrapper').css("opacity", "0");
 		}
 	});
 });

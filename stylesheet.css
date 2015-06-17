@@ -33,11 +33,27 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	font-family: "Chantilly";
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
 h3 {
 	font-family: "Chantilly XLite";
 }
 
-p, li {
+h4 {
+	font-size: 140%;
+	font-family: "Chantilly XLite";
+	margin-top: 5px;
+}
+
+p {
+	font-family: "Chantilly MedLite";
+}
+
+li {
 	font-family: "Chantilly";
 }
 
