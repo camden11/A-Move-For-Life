@@ -81,6 +81,21 @@ b {
 	text-shadow: none;
 }
 
+.btn-dark {
+	border-color: #666666;
+	color: #666666;
+}
+
+.btn-dark:hover {
+	border-color: black;
+	color: black;
+	background-color: transparent;
+}
+
+.btn-dark span {
+	color: black;
+}
+
 /* Page Header & Nav ------------------------------------*/
 .header {
 	width: 100%;

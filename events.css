@@ -30,6 +30,30 @@
 	color: white;
 }
 
+.btn-dark {
+	width: 120px;
+	height: 60px;
+	margin: 0;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.btn-dark:hover span {
+	color: black;
+}
+
+.btn span {
+	font-size: 150%;
+	color: #666666;
+	transition: all 0.5s ease;
+}
+
+@media (min-width: 768px) {
+	.btn-dark {
+		width: 60px;
+	}
+}
+
 /* Images ---------------------------- */
 .event-img {
 	width: 350px;
@@ -50,37 +74,48 @@
 }
 
 /* Columns and Layout ---------------- */
+.col-sm-1 {
+	width: 100%;
+	text-align: center;
+}
 .col-sm-4 {
 	text-align: center;
 	width: 100%;
-	margin-top: 45px;
 }
 
-.col-sm-8 {
+.col-sm-7 {
 	text-align: center;
 	width: 100%;
 }
 
-.col-sm-4, .col-sm-8 {
-	margin-bottom: 10px;
-}
 
 .row {
-	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+    position: relative;
 }
 
 @media (min-width: 768px) {
+	.col-sm-1 {
+		text-align: center;
+		padding: 0;
+		height: 100%;
+		width: .083333333%;
+    	right: 0;
+    	top: 0;
+	}
 	.col-sm-4 {
 		width: 33.33333333%;
-		margin-bottom: 60px;
 		margin-top: 0px;
 	}
 
-	.col-sm-8 {
-		width: 66.66666666%;
+	.col-sm-7 {
+		width: 58.3333333333333%;
 		text-align: left;
 		padding-left: 50px;
-		margin-bottom: 60px;
 	}
 
 	.jumbotron {
