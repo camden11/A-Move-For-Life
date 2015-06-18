@@ -131,9 +131,14 @@
 
 /* Switching between event lists ------------------ */
 #past-event-wrapper {
-  transition: visibility 0s ease, opacity 1s ease;
+	visibility: hidden;
+	opacity: 0;
 }
 
-.invisible {
-	display: none;
+.fadein {
+	transition: visibility 0s ease, opacity 1s ease;
+}
+
+.fadeout {
+	transition: visibility 0s 1s ease, opacity 1s ease;
 }
