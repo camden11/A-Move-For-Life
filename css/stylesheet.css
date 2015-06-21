@@ -31,6 +31,11 @@ body {
 	width: 100%;
 }
 
+/* Layout --------------------------------------------------*/
+.center {
+	text-align: center;
+}
+
 /* General Text ------------------------------------------- */
 h1 {
 	font-size: 500%;
@@ -273,15 +278,36 @@ b {
 	background-color: transparent;
 }
 
-/* Jumbotron ------------------------------------------------------- */
-.jumbotron {
+/* Banner ------------------------------------------------------- */
+.page-banner {
+	display: none;
+}
+
+.page-banner-small {
 	width: 100%;
-	color: white;
-	padding-top: 80px;
+	height: auto;
+	max-width: 510px;
+	margin: 0 auto;
+	margin-top: 54px;
 }
 
 @media (min-width: 768px) {
-	.jumbotron {
+	.page-banner {
+		display: block;
+		min-width: 768px;
+		width: 85%;
+		height: auto;
+		margin: 0 auto;
 		margin-top: 54px;
+	}
+
+	.page-banner-small {
+		display: none;
+	}
+}
+
+@media (min-width: 1250px) {
+	.page-banner {
+		width: 75%;
 	}
 }
