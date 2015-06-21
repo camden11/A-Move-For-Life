@@ -21,6 +21,11 @@
 	src: url("../fonts/chantilly-medlite.ttf");
 }
 
+@font-face {
+	font-family: "Gobold";
+	src: url("../fonts/gobold.ttf");
+}
+
 /* Page Structure -----------------------------------------*/
 body {
 	width: 100%;
@@ -59,6 +64,10 @@ li {
 
 b {
 	font-family: "Chantilly Bold";
+}
+
+.drop-shadow {
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 /* Buttons ---------------------------------------- */
@@ -143,7 +152,7 @@ b {
 }
 
 #nav-img {
-	height: 27px;
+	height: 24px;
 	width: auto;
 }
 
