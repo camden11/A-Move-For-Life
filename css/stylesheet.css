@@ -100,6 +100,7 @@ b {
 .header {
 	width: 100%;
 	position: fixed;
+	top: 0;
 	z-index: 1000;
 	background-color: white;
 	text-align: center;
@@ -269,10 +270,5 @@ b {
 	width: 100%;
 	color: white;
 	padding-top: 80px;
-}
-
-@media (min-width: 768px) {
-	.jumbotron {
-		margin-top: 54px;
-	}
+	margin-top: 54px;
 }

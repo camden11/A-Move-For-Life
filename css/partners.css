@@ -1,3 +1,4 @@
+/* Banner ------------------------------------------- */
 .jumbotron {
   Background: url(../img/partner_img/partner_banner_2.jpg) no-repeat center center;
   -webkit-background-size: cover;
@@ -5,4 +6,48 @@
   -o-background-size: cover;
   background-size: cover;
   margin-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+/* Headings & Text ------------------------------------ */
+h2 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	margin-left: 5%;
+}
+
+/* Arrow buttons -------------------------------------- */
+a {
+	color: #666666;
+	transition: all 0.5s ease;
+}
+
+a:hover {
+	color: black;
+}
+
+/* Sections ------------------------------------------- */
+.partners-section {
+	width: 90%;
+	height: 200px;
+	background-color: gray;
+	float: left;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.arrow {
+	width: 5%;
+	height: 200px;
+	background-color: red;
+	float: left;
+	display: table;
+	font-size: 200%;
+}
+
+.v-center {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
 }
