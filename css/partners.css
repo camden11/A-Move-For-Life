@@ -35,6 +35,33 @@ a:hover {
 	float: left;
 	margin-bottom: 30px;
 	position: relative;
+	overflow: hidden;
+}
+
+.slide {
+	position: absolute;
+	background-color: blue;
+	height: 100%;
+	width: 500%;
+	left: 0%;
+}
+
+.partners-row {
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+.j {
+	background-color: green;
+}
+
+.k {
+	background-color: purple;
+}
+
+.l {
+	background-color: yellow;
 }
 
 .arrow {
