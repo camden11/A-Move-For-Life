@@ -12,7 +12,6 @@ $(document).ready(function() {
 		if (artistPos > 0) {
 			artistPos = artistPos - 1;
 			$('.artists').animate({left: convertPos(artistPos)});
-			console.log(convertPos(artistPos));
 		}
 	});
 
@@ -20,7 +19,40 @@ $(document).ready(function() {
 		if (artistPos < artistLimit) {
 			artistPos = artistPos + 1;
 			$('.artists').animate({left: convertPos(artistPos)});
-			console.log(convertPos(artistPos));
+		}
+	});
+
+	var sponsorLimit = 3;
+	var sponsorPos = 0;
+
+	$('.sponsor-left').click(function() {
+		if (sponsorPos > 0) {
+			sponsorPos = sponsorPos - 1;
+			$('.sponsors').animate({left: convertPos(sponsorPos)});
+		}
+	});
+
+	$('.sponsor-right').click(function() {
+		if (sponsorPos < sponsorLimit) {
+			sponsorPos = sponsorPos + 1;
+			$('.sponsors').animate({left: convertPos(sponsorPos)});
+		}
+	});
+
+	var charityLimit = 1;
+	var charityPos = 0;
+
+	$('.charity-left').click(function() {
+		if (charityPos > 0) {
+			charityPos = charityPos - 1;
+			$('.charities').animate({left: convertPos(charityPos)});
+		}
+	});
+
+	$('.charity-right').click(function() {
+		if (charityPos < charityLimit) {
+			charityPos = charityPos + 1;
+			$('.charities').animate({left: convertPos(charityPos)});
 		}
 	});
 });

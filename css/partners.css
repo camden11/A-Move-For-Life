@@ -17,16 +17,6 @@ h2 {
 	margin-left: 5%;
 }
 
-/* Arrow buttons -------------------------------------- */
-a {
-	color: #666666;
-	transition: all 0.5s ease;
-}
-
-a:hover {
-	color: black;
-}
-
 /* Sections ------------------------------------------- */
 .partners-section {
 	width: 90%;
@@ -67,10 +57,16 @@ a:hover {
 .arrow {
 	width: 5%;
 	height: 200px;
-	background-color: red;
 	float: left;
 	display: table;
 	font-size: 200%;
+	cursor: pointer;
+	color: #666666;
+	transition: all 0.5s ease;
+}
+
+.arrow:hover {
+	color: black;
 }
 
 .v-center {
