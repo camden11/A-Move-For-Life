@@ -82,6 +82,11 @@ h3 {
 	transition: all 0.5s ease;
 }
 
+.artist-left, .sponsor-left, .charity-left {
+	opacity: 0;
+	cursor: auto;
+}
+
 @media (min-width: 825px) {
 	.arrow {
 		height: 193px;
