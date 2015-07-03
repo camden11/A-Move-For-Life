@@ -34,7 +34,7 @@ $(document).ready(function() {
 		}
 	});
 
-	var sponsorLimit = 3;
+	var sponsorLimit = 2;
 	var sponsorPos = 0;
 
 	$('.sponsor-left').click(function() {
