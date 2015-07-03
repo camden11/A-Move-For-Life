@@ -17,52 +17,75 @@ h2 {
 	margin-left: 5%;
 }
 
+h3 {
+	margin-top: 15px;
+}
+
 /* Sections ------------------------------------------- */
 .partners-section {
 	width: 90%;
 	height: 200px;
-	background-color: gray;
 	float: left;
 	margin-bottom: 30px;
 	position: relative;
 	overflow: hidden;
 }
 
+@media (min-width: 825px) {
+	.partners-section {
+		height: 250px;
+	}
+}
+
 .slide {
 	position: absolute;
-	background-color: blue;
 	height: 100%;
 	width: 500%;
 	left: 0%;
 }
 
 .partners-row {
+	display: table;
+	vertical-align: middle;
+	position: relative;
 	width: 20%;
 	height: 100%;
 	float: left;
 }
 
-.j {
-	background-color: green;
+.partners-object {
+	width: 33.3333%;
+	float: left;
+	text-align: center;
+	position: relative;
+	display: inline;
 }
 
-.k {
-	background-color: purple;
+.partners-object div {
+	position: absolute;
 }
 
-.l {
-	background-color: yellow;
+.partners-img {
+	width: 95%;
+	max-width: 300px;
+	height: auto;
 }
 
 .arrow {
 	width: 5%;
-	height: 200px;
+	height: 150px;
 	float: left;
 	display: table;
 	font-size: 200%;
 	cursor: pointer;
 	color: #666666;
 	transition: all 0.5s ease;
+}
+
+@media (min-width: 825px) {
+	.arrow {
+		height: 193px;
+	}
 }
 
 .arrow:hover {
