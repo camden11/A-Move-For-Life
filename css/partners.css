@@ -31,7 +31,7 @@ h2 {
 /* Sections ------------------------------------------- */
 .partners-section {
 	width: 80%;
-	height: 200px;
+	height: 250px;
 	float: left;
 	margin-bottom: 30px;
 	position: relative;
@@ -41,8 +41,11 @@ h2 {
 @media (min-width: 768px) {
 	.partners-section {
 		width: 90%;
+		height: 200px;
 	}
 }
+
+
 
 @media (min-width: 825px) {
 	.partners-section {
@@ -82,17 +85,32 @@ h2 {
 	width: 95%;
 	max-width: 300px;
 	height: auto;
+	display: none;
+}
+
+.partners-img-alt {
+	width: 120px;
+	height: auto;
+}
+
+@media(min-width: 768px) {
+	.partners-img {
+		display: inline;
+	}
+	.partners-img-alt {
+		display: none;
+	}
 }
 
 .arrow {
 	width: 10%;
-	height: 150px;
+	height: 180px;
 	float: left;
 	display: table;
 	font-size: 200%;
 	cursor: pointer;
 	color: #666666;
-	transition: all 0.5s ease;
+	transition: color 0.5s ease;
 }
 
 .artist-left, .sponsor-left, .charity-left {
@@ -103,6 +121,7 @@ h2 {
 @media (min-width: 768px) {
 	.arrow {
 		width: 5%;
+		height: 150px;
 	}
 }
 
