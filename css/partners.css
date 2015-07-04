@@ -30,12 +30,18 @@ h2 {
 
 /* Sections ------------------------------------------- */
 .partners-section {
-	width: 90%;
+	width: 80%;
 	height: 200px;
 	float: left;
 	margin-bottom: 30px;
 	position: relative;
 	overflow: hidden;
+}
+
+@media (min-width: 768px) {
+	.partners-section {
+		width: 90%;
+	}
 }
 
 @media (min-width: 825px) {
@@ -79,7 +85,7 @@ h2 {
 }
 
 .arrow {
-	width: 5%;
+	width: 10%;
 	height: 150px;
 	float: left;
 	display: table;
@@ -92,6 +98,12 @@ h2 {
 .artist-left, .sponsor-left, .charity-left {
 	opacity: 0;
 	cursor: auto;
+}
+
+@media (min-width: 768px) {
+	.arrow {
+		width: 5%;
+	}
 }
 
 @media (min-width: 825px) {
