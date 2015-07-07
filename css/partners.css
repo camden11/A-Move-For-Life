@@ -90,6 +90,7 @@ h2 {
 
 .partners-img-alt {
 	width: 120px;
+	max-width: 95%;
 	height: auto;
 }
 
