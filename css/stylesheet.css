@@ -274,7 +274,7 @@ b {
 }
 
 @media (min-width: 768px) {
-	.jumbotron {
+	.jumbotron, .carousel {
 		margin-top: 54px;
 	}
 }
