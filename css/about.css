@@ -54,16 +54,24 @@
 
 .carousel .item {
   height: 500px;
-  background-color: #777;
 }
 
-.carousel-inner > .item > img {
-  position: absolute;
-  min-width: 100%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 10px;
+.first-slide {
+    Background: url(../img/about_img/about1.jpg) no-repeat center center;
+    background-size: cover;
 }
+
+.second-slide {
+    Background: url(../img/about_img/about2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.third-slide {
+    Background: url(../img/about_img/about3.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
 
 .slide2 {
 	z-index: 10;
@@ -101,12 +109,10 @@ section h2.section-heading {
 }
 
 /* Board of Directors Border CSS */
-.board {
-  background: #000000;
-  border-style: solid;
-  border-color: #000000;
-  color: white;
+h2 {
+    margin-top: 40px;
 }
+
 
 /* Celebrate. Give. Live. CSS */
 
