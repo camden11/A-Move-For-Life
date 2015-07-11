@@ -71,6 +71,12 @@
     background-size: cover;
 }
 
+@media (max-width: 768px) {
+    h1 {
+        font-size: 400%;
+    }
+}
+
 
 
 .slide2 {
@@ -98,6 +104,10 @@
 
 .col-md-8 {
   text-align: left;
+}
+
+.col-sm-4 {
+    text-align: center;
 }
 
 /* About A Move for Life */
