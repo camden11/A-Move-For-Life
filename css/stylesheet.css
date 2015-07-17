@@ -281,8 +281,17 @@ b {
 	margin-top: 0px;
 }
 
+.jumbotron, .carousel, .carousel .item {
+	height: 375px;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
 @media (min-width: 768px) {
 	.jumbotron, .carousel {
 		margin-top: 54px;
+	}
+
+	.jumbotron, .carousel, .carousel .item {
+		height: 340px;
 	}
 }

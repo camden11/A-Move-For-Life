@@ -21,6 +21,7 @@
 .active-button {
 	border-color: white;
 	background-color: white;
+	text-shadow: none;
 	color: #666666;
 }
 

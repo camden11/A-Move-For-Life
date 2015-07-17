@@ -38,7 +38,6 @@
     box-shadow: #FFFFFF;
 }
 .carousel {
-  height: 500px;
   margin-bottom: 60px;
 }
 
@@ -50,10 +49,6 @@
   margin-bottom: 20px;
   font-size: 21px;
   line-height: 1.4;
-}
-
-.carousel .item {
-  height: 500px;
 }
 
 .first-slide {
@@ -71,7 +66,7 @@
     background-size: cover;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 890px) {
     h1 {
         font-size: 400%;
     }
@@ -81,7 +76,6 @@
 
 .slide2 {
 	z-index: 10;
-	color: #DADAFF;
 }
 
 /* Featurettes
