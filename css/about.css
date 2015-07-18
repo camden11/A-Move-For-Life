@@ -105,6 +105,14 @@
     margin-bottom: 30px;
 }
 
+.row {
+    width: 100%;
+}
+
+.col-sm-6 {
+    width: 50%;
+}
+
 /* About A Move for Life */
 
 section h2.section-heading {
