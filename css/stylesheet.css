@@ -299,3 +299,41 @@ b {
 		height: 340px;
 	}
 }
+
+/* Footer ---------------------------------------------------------- */
+footer {
+	width: 100%;
+	background-color: #666666;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+footer p {
+	color: white;
+	margin: 0;
+	font-size: 75%;
+}
+
+footer a {
+	color: white;
+}
+
+footer a:hover {
+	color: white;
+}
+
+footer div {
+	width: 33.33333333333%;
+	float: left;
+}
+
+footer #footer-right {
+	text-align: right;
+	color: #B8B8B8;
+}
+
+footer #footer-right p {
+	color: #B8B8B8;
+}
