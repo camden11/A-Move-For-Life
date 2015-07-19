@@ -2,12 +2,6 @@
 
 /* About Us Page ----------------------------------- */
 
-.section {
-  text-align:left;
-  color: #000000;
-  width: 100%;
-}
-
 #portfolio {
   padding-left: 40px;
 }
@@ -149,6 +143,9 @@
 
 p { 
     font-size: 120%;
+}
+
+#about p {
     text-align: left;
 }
 
