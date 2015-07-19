@@ -141,6 +141,7 @@
 #upcoming-event-wrapper {
 	opacity: 1;
 	position: relative;
+	padding-bottom: 50px;
 }
 
 .fadein {
@@ -149,4 +150,21 @@
 
 .fadeout {
 	transition: opacity .5s 0s ease;
+}
+
+#test {
+	min-height: 100%;
+	position: relative;
+}
+
+footer {
+	margin-top: 50px;
+}
+
+#event-footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	clear: none;
+	z-index: 0;
 }

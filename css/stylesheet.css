@@ -22,8 +22,9 @@
 }
 
 /* Page Structure -----------------------------------------*/
-body {
+html, body {
 	width: 100%;
+	height: 100%;
 }
 
 /* General Text ------------------------------------------- */
@@ -304,10 +305,13 @@ b {
 footer {
 	width: 100%;
 	background-color: #666666;
-	padding-top: 15px;
-	padding-bottom: 30px;
+	height: 50px;
 	padding-left: 20px;
 	padding-right: 20px;
+	clear: both;
+    position: relative;
+    z-index: 10;
+    margin-top: -50px;
 }
 
 footer p {
@@ -327,13 +331,29 @@ footer a:hover {
 footer div {
 	width: 33.33333333333%;
 	float: left;
+	text-align: center;
+	padding-top: -105px;
+	margin-top: 12px;
+}
+
+footer #footer-left {
+	text-align: left;
+	padding-top: 0px;
+	margin-top: 18px;
 }
 
 footer #footer-right {
 	text-align: right;
 	color: #B8B8B8;
+	padding-top: 0px;
+	margin-top: 18px;
 }
 
 footer #footer-right p {
 	color: #B8B8B8;
+}
+
+footer .footer-img {
+	height: 24px;
+	width: auto;
 }

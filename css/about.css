@@ -2,17 +2,14 @@
 
 /* About Us Page ----------------------------------- */
 
-.mainSec {
-   color:black;
-   clear:both;
-   text-align:left;
-   padding:3px; 
-}
-
 .section {
   text-align:left;
   color: #000000;
   width: 100%;
+}
+
+#portfolio {
+  padding-left: 40px;
 }
 
 .btn-default {
@@ -210,4 +207,8 @@ section h3.section-subheading {
     .dis {
         display: block;
     }
+}
+
+footer {
+    margin-top: 10px;
 }

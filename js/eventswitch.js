@@ -13,6 +13,7 @@ $(document).ready(function() {
 			$('#upcoming-event-wrapper').toggleClass('fadeout');
 			$('#upcoming-event-wrapper').css('position', 'relative');
 			$('#upcoming-event-wrapper').css('opacity', '1');
+			$('#event-footer').css('height', '50px')
 			$('#past-event-wrapper').toggleClass('fadein');
 			$('#past-event-wrapper').toggleClass('fadeout');
 			$('#past-event-wrapper').css('opacity', '0')
@@ -31,6 +32,7 @@ $(document).ready(function() {
 			$('#past-event-wrapper').toggleClass('fadeout');
 			$('#past-event-wrapper').css('position', 'relative');
 			$('#past-event-wrapper').css('opacity', '1');
+			$('#event-footer').css('height', '0px')
 			$('#upcoming-event-wrapper').toggleClass('fadein');
 			$('#upcoming-event-wrapper').toggleClass('fadeout');
 			$('#upcoming-event-wrapper').css('position', 'fixed');
