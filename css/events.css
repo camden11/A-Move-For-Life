@@ -152,7 +152,7 @@
 	transition: opacity .5s 0s ease;
 }
 
-#test {
+.wrapper {
 	min-height: 100%;
 	position: relative;
 }

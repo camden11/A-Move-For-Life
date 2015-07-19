@@ -1,0 +1,33 @@
+h1 {
+	margin-top: 54px;
+}
+
+h2 {
+	font-family: "Chantilly XLite";
+	font-size: 275%;
+}
+
+h4 > b {
+	font-family: "Chantilly";
+}
+
+h2, h4 {
+	margin-left: 10%;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	clear: none;
+	z-index: 0;
+}
+
+h4 > a {
+	color: black;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: black;
+}
