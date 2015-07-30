@@ -42,6 +42,10 @@
   line-height: 1.4;
 }
 
+.carousel .btn {
+    font-family: "Chantilly";
+}
+
 .first-slide {
     Background: url(../img/about_img/about1.jpg) no-repeat center center;
     background-size: cover;
@@ -143,6 +147,7 @@
 
 p { 
     font-size: 120%;
+    font-family: "Chantilly XLite";
 }
 
 #about p {

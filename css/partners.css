@@ -113,6 +113,10 @@ h2 {
 	transition: color 0.5s ease;
 }
 
+.featured-arrow {
+	visibility: hidden;
+}
+
 .artist-left, .sponsor-left, .charity-left {
 	opacity: 0;
 	cursor: auto;
@@ -141,6 +145,11 @@ h2 {
 	text-align: center;
 }
 
+.monthly {
+	margin-left: 5%
+}
+
+
 /* Links ---------------------------- */
 a {
 	color: black;
@@ -150,4 +159,9 @@ a {
 
 a:hover {
 	color: black;
+}
+
+.mealstxt {
+	text-align: center;
+	
 }

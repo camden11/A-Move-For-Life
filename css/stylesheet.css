@@ -21,6 +21,19 @@
 	src: url("../fonts/chantilly-medlite.ttf");
 }
 
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-hdupps');
+	src:url('../fonts/icomoon.eot?#iefix-hdupps') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?-hdupps') format('truetype'),
+		url('../fonts/icomoon.woff?-hdupps') format('woff'),
+		url('../fonts/icomoon.svg?-hdupps#icomoon') format('svg'),
+		url('../fonts/iconmoon.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 /* Page Structure -----------------------------------------*/
 html, body {
 	width: 100%;
@@ -109,6 +122,31 @@ b {
 
 .btn-dark span {
 	color: black;
+}
+
+.button-actions {
+    margin: 0;
+    background-color: transparent;
+    text-align: center;
+    padding: 20px 28px;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ticket:before {
+	content: "\e600";
 }
 
 /* Page Header & Nav ------------------------------------*/
@@ -311,13 +349,19 @@ b {
 footer {
 	width: 100%;
 	background-color: #666666;
-	height: 50px;
+	height: 60px;
 	padding-left: 20px;
 	padding-right: 20px;
 	clear: both;
     position: relative;
     z-index: 10;
     margin-top: -50px;
+}
+
+@media (max-width: 550px) {
+	footer {
+		height: 75px;
+	}
 }
 
 .wrapper {
@@ -360,7 +404,7 @@ footer #footer-right {
 	margin-top: 18px;
 }
 
-footer #footer-right p {
+footer #footer-right p, footer #footer-bottom p {
 	color: #B8B8B8;
 }
 
@@ -368,3 +412,10 @@ footer .footer-img {
 	height: 24px;
 	width: auto;
 }
+
+footer #footer-bottom {
+	clear: both;
+	width: 100%;
+	margin-top: 6px;
+}
+

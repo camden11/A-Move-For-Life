@@ -36,6 +36,7 @@
 	height: 60px;
 	margin: 0;
 	margin-right: 10px;
+	margin-bottom: 20px;
 	vertical-align: middle;
 }
 
@@ -50,9 +51,20 @@
 	line-height: 22.5px;
 }
 
+.ticket {
+	font-size: 180%;
+	padding-bottom: 0px;
+	padding-top: 15px;
+}
+
+
 @media (min-width: 768px) {
 	.btn-dark {
 		width: 60px;
+	}
+
+	.ticket {
+		padding-left: 7px;
 	}
 }
 
