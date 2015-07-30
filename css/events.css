@@ -31,10 +31,15 @@
 	color: white;
 }
 
+.btn-photo {
+	padding-top: 12px;
+}
+
 .btn-dark {
 	width: 120px;
 	height: 60px;
 	margin: 0;
+	margin-top: 10px;
 	margin-right: 10px;
 	margin-bottom: 20px;
 	vertical-align: middle;
@@ -102,6 +107,11 @@
 	width: 100%;
 }
 
+.col-sm-7 p {
+	text-align: left;
+	margin-left: 5px;
+}
+
 
 .row {
 	padding-top: 50px;
@@ -132,9 +142,6 @@
 		padding-left: 50px;
 	}
 
-	.jumbotron {
-		/*margin-bottom: 50px;*/
-	}
 }
 
 @media (min-width: 1250px) {
@@ -153,7 +160,6 @@
 #upcoming-event-wrapper {
 	opacity: 1;
 	position: relative;
-	padding-bottom: 50px;
 }
 
 .fadein {
@@ -175,8 +181,15 @@ footer {
 
 #event-footer {
 	position: absolute;
-	bottom: 0;
+	bottom: 0px;
 	left: 0;
 	clear: none;
 	z-index: 0;
+	margin-top: -60px;
+}
+
+@media (max-width: 768px) {
+	#event-footer {
+		bottom: -75px;
+	}
 }

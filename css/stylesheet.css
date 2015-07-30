@@ -355,7 +355,8 @@ footer {
 	clear: both;
     position: relative;
     z-index: 10;
-    margin-top: -50px;
+    margin-top: -60px;
+    margin-bottom: -10px;
 }
 
 @media (max-width: 550px) {
@@ -387,7 +388,6 @@ footer div {
 	width: 33.33333333333%;
 	float: left;
 	text-align: center;
-	padding-top: -105px;
 	margin-top: 12px;
 }
 
