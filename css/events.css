@@ -36,10 +36,10 @@
 }
 
 .btn-dark {
-	width: 120px;
-	height: 60px;
+	width: auto;
+	height: 40px;
 	margin: 0;
-	margin-top: 10px;
+	margin-top: 0px;
 	margin-right: 10px;
 	margin-bottom: 20px;
 	vertical-align: middle;
@@ -65,7 +65,7 @@
 
 @media (min-width: 768px) {
 	.btn-dark {
-		width: 60px;
+		width: auto;
 	}
 
 	.ticket {
@@ -93,21 +93,17 @@
 }
 
 /* Columns and Layout ---------------- */
-.col-sm-1 {
-	width: 100%;
-	text-align: center;
-}
 .col-sm-4 {
 	text-align: center;
 	width: 100%;
 }
 
-.col-sm-7 {
+.col-sm-8 {
 	text-align: center;
 	width: 100%;
 }
 
-.col-sm-7 p {
+.col-sm-8 p {
 	text-align: left;
 	margin-left: 5px;
 }
@@ -136,10 +132,11 @@
 		margin-top: 0px;
 	}
 
-	.col-sm-7 {
-		width: 58.3333333333333%;
+	.col-sm-8 {
+		width: 66.66666666666666666%;
 		text-align: left;
 		padding-left: 50px;
+		padding-right: 10px;
 	}
 
 }

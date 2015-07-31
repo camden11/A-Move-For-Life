@@ -7,6 +7,18 @@ body {
   height: 100%;
   
 }
+
+h1 {
+  font-size: 500%;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 800%;
+  }
+}
+
+
 body {
   color: #fff;
   text-align: center;
@@ -99,6 +111,11 @@ body {
 footer {
   background-color: transparent;
 }
+
+.lead {
+  font-size: 150%;
+}
+
 
 
 
