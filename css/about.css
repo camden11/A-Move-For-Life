@@ -61,7 +61,7 @@
     background-size: cover;
 }
 
-@media (max-width: 890px) {
+@media (max-width: 910px) {
     h1 {
         font-size: 400%;
     }
@@ -98,6 +98,24 @@
 .col-sm-4 {
     text-align: center;
     margin-bottom: 30px;
+}
+
+.img-col-smallscreen {
+    display: block;
+}
+
+.img-col-largescreen {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .img-col-smallscreen {
+    display: none;
+}
+
+.img-col-largescreen {
+    display: block;
+}
 }
 
 .row {
