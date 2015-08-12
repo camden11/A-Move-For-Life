@@ -16,16 +16,37 @@ h2 {
 	margin-left: 5%;
 }
 
-.partners-section h3 {
+.partners-section h4 {
 	margin-top: 15px;
-	font-size: 138%;
 }
 
-@media (min-width: 825px) {
-	.partners-section h3 {
-		font-size: 170%;
+/* For text that is too long */
+@media (min-width: 768px) {
+	.small-only {
+		display: none;
 	}
 }
+
+@media (max-width: 768px) {
+	.large-only {
+		display: none;
+	}
+}
+
+.partners-subheading {
+	margin-top: 25px;
+	margin-left: 5%;
+	margin-right: 5%;
+	color: #666;
+}
+
+@media (min-width: 768px) {
+	.partners-subheading {
+		text-align: center;
+	}
+}
+
+
 
 /* Sections ------------------------------------------- */
 .partners-section {
@@ -161,7 +182,7 @@ a:hover {
 	color: black;
 }
 
-.mealstxt {
-	text-align: center;
-	
+.partners-subheading a {
+	text-decoration: underline;
+	color: #666;
 }

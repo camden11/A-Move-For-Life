@@ -411,6 +411,8 @@ footer #footer-right p, footer #footer-bottom p {
 footer .footer-img {
 	height: 24px;
 	width: auto;
+	margin-left: 3px;
+	margin-right: 3px;
 }
 
 footer #footer-bottom {
