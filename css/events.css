@@ -192,18 +192,3 @@
 footer {
 	margin-top: 50px;
 }
-
-#event-footer {
-	position: absolute;
-	bottom: 0px;
-	left: 0;
-	clear: none;
-	z-index: 0;
-	margin-top: -60px;
-}
-
-@media (max-width: 768px) {
-	#event-footer {
-		bottom: -75px;
-	}
-}

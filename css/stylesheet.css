@@ -421,3 +421,19 @@ footer #footer-bottom {
 	margin-top: 6px;
 }
 
+/* For short pages */
+.sticky-footer {
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	clear: none;
+	z-index: 0;
+	margin-top: -60px;
+}
+
+@media (max-width: 768px) {
+	.sticky-footer {
+		bottom: -75px;
+	}
+}
+
