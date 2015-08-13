@@ -1,0 +1,10 @@
+/* Banner ------------------------------------- */
+.jumbotron {
+  Background: url(../img/donate_img/donate_banner.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 120px;
+  margin-bottom: 0px;
+}
