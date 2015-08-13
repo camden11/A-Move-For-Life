@@ -149,6 +149,12 @@ b {
 	content: "\e600";
 }
 
+.button-center {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+}
+
 /* Page Header & Nav ------------------------------------*/
 .header {
 	width: 100%;

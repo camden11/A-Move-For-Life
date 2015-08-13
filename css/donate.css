@@ -8,3 +8,30 @@
   padding-top: 120px;
   margin-bottom: 0px;
 }
+
+.donate-content {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+
+.btn {
+	color: #777;
+	border-color: #777;
+	font-size: 140%;
+	font-family: "Chantilly XLite";
+	background-color: transparent;
+	width: auto;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.btn:hover {
+	color: black;
+	border-color: black;
+	background-color: transparent;
+}
+
+.donate-buttons {
+	text-align: center;
+}
