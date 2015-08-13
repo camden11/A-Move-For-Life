@@ -33,7 +33,13 @@ input[type="submit"] {
 	width: 80%;
 	margin: 0 auto;
 	margin-top: 30px;
-	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+	.contact-content {
+		padding-bottom: 80px;
+	}
 }
 
 @media (min-width: 1250px) {
@@ -93,8 +99,4 @@ input[type="submit"] {
 input[type="submit"]:hover {
 	border: 3px solid black;
 	color: black;
-}
-
-footer {
-	margin-top: 35px;
 }
