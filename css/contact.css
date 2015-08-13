@@ -8,3 +8,93 @@
   padding-top: 120px;
   margin-bottom: 0px;
 }
+
+/* Text --------------------------------------- */
+label {
+	font-family: "Chantilly XLite";
+	font-weight: normal;
+	font-size: 150%;
+}
+
+input[type="text"], input[type="tel"], input[type="email"], textarea {
+	font-family: "Chantilly XLite";
+	font-size: 120%;
+	color: #777;
+}
+
+input[type="submit"] {
+	font-family: "Chantilly MedLite";
+	font-size: 160%;
+	color: #777;
+}
+
+/* Layout ------------------------------------- */
+.contact-content {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+@media (min-width: 1250px) {
+	.contact-content {
+		width: 60%;
+	}
+}
+
+label {
+	width: 25%;
+}
+
+.message-label {
+	height: 125px;
+	vertical-align: top;
+}
+
+input[type="text"], input[type="tel"], input[type="email"], textarea  {
+	width: 74%;
+	border: none;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+	label {
+		width: 100%;
+	}
+
+	input[type="text"], input[type="tel"], input[type="email"], textarea {
+		width: 100%;
+	}
+
+	.message-label {
+		height: 30px;
+	}
+}
+
+textarea {
+	resize: none;
+	height: 125px;
+}
+
+.submit-container {
+	margin: 0 auto;
+	width: 100px;
+}
+
+input[type="submit"] {
+	background-color: transparent;
+	border: 3px solid #777;
+	text-align: center;
+	transition: all 0.5s ease;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+input[type="submit"]:hover {
+	border: 3px solid black;
+	color: black;
+}
+
+footer {
+	margin-top: 35px;
+}
