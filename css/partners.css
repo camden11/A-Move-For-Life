@@ -21,13 +21,13 @@ h2 {
 }
 
 /* For text that is too long */
-@media (min-width: 768px) {
+@media (min-width: 781px) {
 	.small-only {
 		display: none;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 780px) {
 	.large-only {
 		display: none;
 	}
