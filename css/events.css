@@ -179,6 +179,7 @@ h2 {
 #upcoming-event-wrapper {
 	opacity: 1;
 	position: relative;
+    padding-bottom: 50px;
 }
 
 .fadein {
